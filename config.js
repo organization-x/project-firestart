@@ -1,7 +1,6 @@
-import { ACCOUNT_SID, AUTH_TOKEN, ROBOFLOW_API_KEY } from '@env';
+import { TWILIO_URL, ROBOFLOW_API_KEY } from '@env';
 
 export default {
-    ACCOUNT_SID,
-    AUTH_TOKEN,
+    TWILIO_URL,
     ROBOFLOW_API_KEY,
 };
