@@ -1,6 +1,7 @@
 import { Camera } from 'expo-camera';
+import { useKeepAwake } from 'expo-keep-awake';
 import { useState , useRef , useEffect, Component} from 'react';
-import { Button, StyleSheet, Text, View, TextInput, SafeAreaView } from 'react-native';
+import { Button, StyleSheet, Text, View, TextInput, SafeAreaView, ScrollView } from 'react-native';
 import { NavigationContainer, useIsFocused } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import 'react-native-url-polyfill/auto';
@@ -53,13 +54,13 @@ useEffect(() => {
           method: "POST",
   
           // path to model endpoint
-          url: "https://classify.roboflow.com/flares-dataset-new/5",
+          url: "https://classify.roboflow.com/flares-ci5kf/1",
   
           // parameters
           params: {
   
             // roboflow private api key (CHANGE TO GET FROM ENV)
-            api_key: "GCPJ40FCMkvr5qqjhDiF" 
+            api_key: roboflow_api_key 
           },
   
           // data will be the URI for the image
@@ -78,7 +79,7 @@ useEffect(() => {
           if ((response.data.top).includes("Off")) {
             flareoffnum++;
             console.log(flareoffnum);
-            if (flareoffnum === 2) {
+            if (flareoffnum === 4) {
               console.log("yo the flare off");
               for (let i = 0; i < contactRemember.length; i++) {
                 console.log(contactRemember[i]);
@@ -105,6 +106,7 @@ useEffect(() => {
     };
     takePicture();
   }, SECOND_MS);
+
 
   return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
 }, [])
@@ -166,15 +168,17 @@ function ContactsScreen() {
         <Button title='Enter ↓' onPress= {addContactHandler}/>
       </View>
       <View style={styles.contactsList}>
-        {contact.map((contact, index) =>
-          <View style={styles.mapContainer}>
-            <View style={styles.contactsListContainer}>
-              <View style={{width: '80%'}}>
-                <Text style={styles.contactText}>{(index + 1) + '. ' + contact}</Text>
-              </View>
-            </View> 
-          </View>
-        )}
+        <ScrollView>
+          {contact.map((contact, index) =>
+            <View style={styles.mapContainer}>
+              <View style={styles.contactsListContainer}>
+                <View style={{width: '80%'}}>
+                  <Text style={styles.contactText}>{(index + 1) + '. ' + contact}</Text>
+                </View>
+              </View> 
+            </View>
+          )}
+        </ScrollView>
       </View>
     </SafeAreaView>
   );
