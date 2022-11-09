@@ -153,10 +153,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Acknowledgments
 
 
-
-* [Github readme template](https://github.com/othneildrew/Best-README-Template)
-* [Frost Methane](https://github.com/othneildrew/Best-README-Template)
+* [Frost Methane](https://www.frostmethane.com)
 * [AI Camp](https://www.ai-camp.org)
+* [Github readme template](https://github.com/othneildrew/Best-README-Template)
 
 
 
