@@ -110,7 +110,7 @@ Let's get you started!
 <!-- Demo -->
 ## Demo
 
-Watch walkthrough video <a href="">here</a>.
+Watch walkthrough video <a href="https://youtu.be/Ts2MYXkeRdw">here</a>.
 
 
 
