@@ -108,7 +108,7 @@ Let's get you started!
 
 
 
-<!-- Demo -->
+<!-- DEMO -->
 ## Demo
 
 Watch walkthrough video <a href="https://youtu.be/Ts2MYXkeRdw">here</a>.
@@ -116,7 +116,8 @@ Watch walkthrough video <a href="https://youtu.be/Ts2MYXkeRdw">here</a>.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-<!-- Model -->
+
+<!-- MODEL -->
 ## Model
 
 Ai model with 98.2% validation accuracy. Trained on Roboflow.com.
