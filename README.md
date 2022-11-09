@@ -17,3 +17,6 @@ The lowest cost continuous monitoring system that we envision is a low cost phon
 - Write a system that processes and trains on this data (and any new ones we may obtain in the future)
 - Build an ML system that given a new image can say whether the flare is on or not
 - Final Product will be an mobile app build with react native. The app will periodically take pictures of the gas flare and send it to the pytorch model. It will determine whether the flare is lit or unlit. If the flare is unlit the app send a SMS or email notification to all provided phone numbers and email addresses.
+
+**MADE BY:**
+Asad Shahid and more
