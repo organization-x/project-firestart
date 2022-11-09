@@ -44,7 +44,8 @@ AI driven gas flare monitoring application!
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#demo">Example</a></li>
+    <li><a href="#demo">Demo</a></li>
+     <li><a href="#model">Machine Learning Model</a></li>
     <li><a href="#team">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -61,7 +62,7 @@ Problem:
   Oil & gas extraction operations burn off excess natural gas (methane) when the extraction exceeds purification and pipeline capacities. However, in recent years flyovers show that in major basins 5% of flares are unlit and venting, while another 5% are malfunctioning with incomplete combustion. Here’s an example study from the [Permian basin](https://www.edf.org/media/through-turbulent-year-edf-data-show-permian-oil-and-gas-operators-consistently-failed-keep). Since methane is a far more potent gas than CO2, venting this gas into the atmosphere contributes significantly to global warming - burning (flaring)  it reduces the warming effects by 96%.
 
 Solution:
-  Android application that continually monitors flare. Takes a picture every few seconds and if the flare is unlit it notifies workers at the plant.
+  Android application that continually monitors flare. Takes a picture every few seconds and sends to AI model to classify. If classified as unlit sends notification to all phone numbers in contact list through Twilio API. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -115,7 +116,14 @@ Watch walkthrough video <a href="https://youtu.be/Ts2MYXkeRdw">here</a>.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+<!-- Model -->
+## Model
 
+Ai model with 98.2% validation accuracy. Trained on Roboflow.com.
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- TEAM -->
