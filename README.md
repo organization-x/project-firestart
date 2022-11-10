@@ -135,7 +135,7 @@ Ai model with 98.2% validation accuracy. Trained on Roboflow.com.
 <li>Frontend Developer: Alan Than</li>
 <li>Frontend Developer: Pallavi Kamat</li>
 <li>Machine Learning Engineer: Arhant Choudhary(https://github.com/gorpyshortlegs/)</li>
-<li>Machine Learning Engineer: Keilani Li</li>
+<li>Machine Learning Engineer: Keilani Li(https://github.com/keil4ni)</li>
 </ol>
 
 
