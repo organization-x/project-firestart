@@ -40,12 +40,11 @@ AI driven gas flare monitoring application!
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#demo">Demo</a></li>
-     <li><a href="#model">Machine Learning Model</a></li>
+    <li><a href="#model">Machine Learning Model</a></li>
     <li><a href="#team">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
