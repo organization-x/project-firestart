@@ -131,7 +131,7 @@ Ai model with 98.2% validation accuracy. Trained on Roboflow.com.
 ## Team
 <ol>
 <li>Team Lead: Seth Basseti</li>
-<li>Product Manager: Asad Shahid</li>
+<li>Product Manager: Asad Shahid (https://github.com/AsadShahid04)</li>
 <li>Frontend Developer: Alan Than</li>
 <li>Frontend Developer: Pallavi Kamat(https://github.com/pkam001)</li>
 <li>Machine Learning Engineer: Arhant Choudhary(https://github.com/gorpyshortlegs/)</li>
